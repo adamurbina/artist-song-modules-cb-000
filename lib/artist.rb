@@ -50,5 +50,5 @@ end
 
 adam = Artist.new
 adam.name = "adam"
-print adam
+#print adam
 print Artist.all
