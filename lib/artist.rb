@@ -1,5 +1,5 @@
 require 'pry'
-require_relative '../config/environment.rb'
+require_relative '../config/environment'
 
 class Artist
   attr_accessor :name
@@ -50,3 +50,4 @@ end
 
 adam = Artist.new
 adam.name = "adam"
+print adam
