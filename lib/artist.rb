@@ -46,3 +46,6 @@ class Artist
   # end
 
 end
+
+adam = Artist.new
+adam.name = "adam"
